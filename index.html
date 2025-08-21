@@ -44,6 +44,41 @@
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
 
 
+          <tr onmouseout="WeGen_stop()" onmouseover="WeGen_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one" style="margin-top:10px;">
+                <div class="two" id='WeGen_image'>
+                  <img src='figure/CVPR-2025.png' width="160"></div>
+                <img src='figure/CVPR-2025.png' width="160">
+              </div>
+              <script type="text/javascript">
+                function WeGen_start() {
+                  document.getElementById('WeGen_image').style.opacity = "1";
+                }
+
+                function WeGen_stop() {
+                  document.getElementById('WeGen_image').style.opacity = "0";
+                }
+                WeGen_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+                <papertitle> WeGen: A Unified Model for Interactive Multimodal Generation as We Chat </papertitle>
+              </a>
+              <br>
+              Zhipeng Huang, Shaobin Zhuang, Canmiao Fu, <strong>  Binxin Yang </strong>, Ying Zhang, Chong Sun, Zhizheng Zhang, Yali Wang, Chen Li, and Zheng-Jun Zha.
+              <br>
+              <em> CVPR</em>, 2025
+              <br>
+              <a href="https://arxiv.org/abs/2503.01115">paper</a>
+              /
+              <a href="https://github.com/hzphzp/WeGen">code</a> 
+              <p></p>
+             </p>
+            </td>
+          </tr> 
+
+
           <tr onmouseout="InstructDiffusion_stop()" onmouseover="InstructDiffusion_start()">
             <td style="padding:20px;width:25%;vertical-align:middle">
               <div class="one">
